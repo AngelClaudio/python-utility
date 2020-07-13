@@ -8,6 +8,8 @@ print (new_dict['name'])
 new_dict['GOAT'] = 'Michael Jordan'
 print(new_dict)
 
+
+
 # Use "del" key work to move a pair from a dictionary
 del new_dict[3]
 print(new_dict)
