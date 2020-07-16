@@ -35,7 +35,9 @@ class Battery:
            """Print a statement describing the battery size."""
            print(f"This car has a {self.battery_size}-kWh battery.")
 
-# Child sub class comes second, must have super in __init__.
+# Child sub class comes second,
+# add the Super Class in the class call to inherit.
+# must have super in __init__.
 
 class ElectricCar(Car):
         """Represent aspects of a car, specific to electric vehicles."""
