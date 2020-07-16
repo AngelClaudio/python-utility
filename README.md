@@ -1,2 +1,5 @@
 # python-utility
-Python utility box, at the moment just being used as a sandbox
+
+* Sandbox to explore different Python features
+
+* Utility box for negotiating different problems
