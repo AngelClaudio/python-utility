@@ -21,3 +21,14 @@ def get_fahrenheit(c):
         Converts celsius to fahrenheit.
         '''
     return(c * (9 / 5) + 32)
+
+
+def get_roots(a, b, c):
+    '''
+    Quadratic equation root calculator
+    '''
+    D = (b*b - 4*a*c)**0.5
+    x_1 = (-b + D)/(2*a)
+    x_2 = (-b - D)/(2*a)
+    
+    return({'x1' : x_1, 'x2' : x_2})
