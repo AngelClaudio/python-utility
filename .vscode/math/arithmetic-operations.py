@@ -11,3 +11,9 @@ print(int(3.8))
 
 # Function float() will turn numbers into floats
 print(float(47))
+
+# *Note you can not turn a string integer into a float
+# using float(), nor can you turn a string float into an integer using int() 
+
+# You can use .is_integer() to check what it is
+print(1.8.is_integer())
