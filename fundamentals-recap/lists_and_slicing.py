@@ -29,3 +29,9 @@ really_new_players = players[:]
 really_new_players.append("Bruce Wayne")
 print(players) 
 # not updated since reference doesn't exist
+
+# ways to create a list
+list_1 = list('abcdefghijklmnopqurstuvwxyz')  # This will split, as argument must be an iterable
+list_2 = ['abcdefghijklmnopqurstuvwxyz']      # This will not split
+
+print(list_1 == list_2)
